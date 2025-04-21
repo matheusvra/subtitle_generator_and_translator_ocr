@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "subtitle-generator-and-translator-ocr"
+version = "0.1.0"
+description = ""
+authors = ["matheus.anjos <matheusvra@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+opencv-python = "^4.11.0.86"
+pytesseract = "^0.3.13"
+srt = "^3.5.3"
+loguru = "^0.7.3"
+faster-whisper = "^1.1.1"
+torch = "^2.6.0"
+torchvision = "^0.21.0"
+torchaudio = "^2.6.0"
+stanza = "1.1.1"
+argostranslate = "^1.9.6"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

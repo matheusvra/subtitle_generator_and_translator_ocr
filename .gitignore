@@ -1,0 +1,15 @@
+# Ignore video files
+*.mp4
+
+# Ignore subtitle files
+*.srt
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore PyCharm settings
+.idea/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
